@@ -1,0 +1,108 @@
+
+
+.calculator{
+    
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    padding-top: 15px;
+}
+.result{
+    color: white;
+    background-color: rgb(26, 126, 207);
+    border-radius: 10px;
+    font-size:34px;
+    height: 65px;
+    width: 450px;
+    
+}
+button{
+    margin-top: 10px;
+    padding-top: 5px;
+    color: white;
+    border-radius: 10px;
+    gap: 5px;
+    font-size:34px;
+    width:100px
+    
+}
+.number{
+    background-color: black;
+}
+#divi{
+    background-color: rgb(76, 187, 76);
+}
+#add{
+    background-color: rgb(221, 150, 57);
+}
+#bracket{
+    background-color: rgb(118, 118, 175);
+}
+#mul{
+    background-color: firebrick ;
+}
+#clear{
+    background-color: rgb(236, 84, 84);
+}
+#sub{
+    background-color: rgb(155, 219, 53);
+}
+#equal{
+    background-color: blue;
+
+}
+
+@media screen and (max-width: 500px) {
+    
+    
+    .calculator{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+        padding-top: 5px;
+
+    }
+    button{
+        font-size: 35px;
+        width: 75px;
+        padding-top: 0px;
+    }
+    .result{
+        color: white;
+        background-color: rgb(26, 126, 207);
+        font-size:25px;
+        height: 55px;
+        width: 355px;
+        
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    
+    
+    .calculator{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        padding-top: 2px;
+
+    }
+    button{
+        font-size: 15px;
+        width: 35px;
+        padding-top: 0px;
+    }
+    .result{
+        color: white;
+        background-color: rgb(26, 126, 207);
+        font-size:12px;
+        height: 25px;
+        width: 155px;
+        
+    }
+
+}
